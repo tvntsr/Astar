@@ -41,16 +41,6 @@ or as Chebyshev distance:
         d = max(abs(xd), abs(yd));
 ```
 
-## h(n)
-
-h(h) in this task calculated as time function and the following is used:
-
-  * time depends on the movement direction
-  * time is bigger when rover going up
-  * time is less when rover going down
-  * time depends on the elevation
-  * time calculate in miliseconds
-
 # Implementation
 
 A* algorithm is implemented as template function
@@ -72,7 +62,7 @@ Template parameters are:
   * UnitType - defines type to keep cartesian coordinates, preferable std::pair<>
   * PathNode - defines a node on the map
   * Queue - priority queue used in A* algorithm
-  * Directions - integer, defines possible movement in the mpa cell
+  * Directions - integer, defines possible movement in the map's cell
 
 ## Function parameters
 
