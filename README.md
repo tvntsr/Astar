@@ -1,4 +1,4 @@
-# Algorithm
+# A* (Astar) Algorithm
 
 A* algorithm is used to find the shorten path.
 
@@ -43,7 +43,7 @@ or as Chebyshev distance:
 
 # Implementation
 
-A* algorithm is implemented as template function
+A* algorithm is implemented as template function for 2D case
 
 ```C++
 template <typename UnitType, typename PathNode, int Directions, typename Queue >
